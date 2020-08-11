@@ -11,7 +11,7 @@ namespace okcuotomasyon
     {
         public string connstring = String.Format("Server={0};Port={1};" +
           "User Id={2};Password={3};Database={4};",
-          "localhost", 5432, "postgres", "123456", "okcuotomasyon");
+          "localhost", 5432, "postgres", "123456789", "okcuotomasyon");
 
         public NpgsqlConnection baglan()
         {
